@@ -46,10 +46,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB         &kp N1  &kp N2  &kp N3            &kp N4  &kp N5             &kp N6        &kp N7        &kp N8        &kp N9      &kp N0          &kp BSPC
-&kp LEFT_SHIFT  &trans  &trans  &trans            &trans  &trans             &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT   &kp HOME        &kp END
-&kp LEFT_GUI    &trans  &trans  &trans            &trans  &kp PRINTSCREEN    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL  &kp F24
-                                &kp LEFT_CONTROL  &trans  &kp SPACE          &kp RET       &trans        &kp RALT
+&kp TAB         &kp N1    &kp N2        &kp N3            &kp N4  &kp N5             &kp N6        &kp N7        &kp N8        &kp N9      &kp N0          &kp BSPC
+&kp LEFT_SHIFT  &trans    &trans        &trans            &trans  &trans             &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT   &kp HOME        &kp END
+&kp LEFT_GUI    &kp C_PP  &kp C_VOL_DN  &kp C_VOL_UP      &trans  &kp PRINTSCREEN    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL  &kp F24
+                                        &kp LEFT_CONTROL  &trans  &kp SPACE          &kp RET       &trans        &kp RALT
             >;
         };
 
@@ -62,10 +62,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL           &kp AT        &kp HASH   &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp DOUBLE_QUOTES  &kp QUESTION  &kp RA(C)  &kp RA(KP_COMMA)  &kp C_PP     &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &kp RA(COMMA)      &none         &none      &none             &none        &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp APOS
-                                            &kp LGUI   &none             &kp SPACE    &kp RET    &none      &kp RALT
+&kp TAB    &kp EXCL           &kp AT        &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &kp DOUBLE_QUOTES  &kp QUESTION  &none     &none     &none        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHFT  &kp RA(COMMA)      &none         &none     &none     &none        &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp APOS
+                                            &kp LGUI  &none     &kp SPACE    &kp RET    &none      &kp RALT
             >;
         };
     };
