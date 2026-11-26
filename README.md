@@ -21,12 +21,12 @@ matches the keymap. Labels for special keys are set in
 
 ### PC shortcut keys
 
-These keys send spare function keys, and the app on the PC is set to react to them:
+These keys send shortcuts the apps on the PC react to:
 
 | Key | Sends | Does |
 |---|---|---|
 | Lower + V | `F8` | Start/stop [OpenWhispr](https://github.com/OpenWhispr/openwhispr) dictation |
-| Lower + G | `F23` | Toggle Draw On Gnome (set as its `toggle-drawing` shortcut) |
+| Lower + G | `Super+Alt+D` | Toggle Draw On Gnome (its default `toggle-drawing` shortcut) |
 | Lower + bottom-right | `F24` | Toggle mic in Discord |
 
 ## Building and flashing
