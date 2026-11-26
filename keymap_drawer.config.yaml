@@ -1,0 +1,8 @@
+# keymap-drawer settings: https://github.com/caksoylar/keymap-drawer
+parse_config:
+  # Friendly labels for keys bound to PC shortcuts
+  raw_binding_map:
+    "&kp F8": "Whispr"
+    "&kp F23": "Draw"
+    "&kp F24": "Mic"
+    "&kp RA(COMMA)": "ç"

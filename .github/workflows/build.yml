@@ -4,3 +4,18 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+
+  # Redraws keymap-drawer/corne.svg (shown in the README) from config/corne.keymap
+  # and commits it when the layout changed.
+  draw:
+    if: github.event_name != 'pull_request'
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@v0.23.0
+    permissions:
+      contents: write
+    with:
+      keymap_patterns: "config/*.keymap"
+      config_path: "keymap_drawer.config.yaml"
+      output_folder: "keymap-drawer"
+      install_version: "0.23.0"
+      commit_message: "Update keymap drawing [skip ci]"
+      fail_on_error: true
