@@ -1,0 +1,90 @@
+layout: {zmk_keyboard: corne}
+layers:
+  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '~', LEFT WIN, Z, X, C, V, B, N, M, ',', ., /, ESC, LEFT CONTROL, Lower,
+    SPACE, RET, Raise, LEFT ALT]
+  Lower:
+  - TAB
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Draw
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - HOME
+  - END
+  - LEFT GUI
+  - PP
+  - VOL DN
+  - VOL UP
+  - Whispr
+  - PRINTSCREEN
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - BT CLR
+  - BT CLR ALL
+  - Mic
+  - LEFT CONTROL
+  - {type: held}
+  - SPACE
+  - RET
+  - {t: ▽, type: trans}
+  - RALT
+  Raise:
+  - TAB
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - KP MULTIPLY
+  - (
+  - )
+  - DELETE
+  - LEFT SHIFT
+  - '"'
+  - '?'
+  - ''
+  - F2
+  - F6
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - '`'
+  - LGUI
+  - ç
+  - CAPS
+  - ''
+  - ''
+  - ''
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - ''''
+  - LEFT CONTROL
+  - ''
+  - SPACE
+  - RET
+  - {type: held}
+  - RALT
